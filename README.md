@@ -5,21 +5,27 @@
 A simple CLI based any Download Tool, that find files and let you stream or download thorugh WebTorrent CLI or Aria or any command tool
 
 ## How to use Script:
+1. Install Python and PIP
 
-> pip install -r requirements.txt
-
-Then Download Node JS runtime
+2. Install requirements
+```
+pip install -r requirements.txt
+```
+3. Then Download Node JS runtime
 [Node js](https://nodejs.org/en/)
+
+4. Install Area2 or webtorrent Cli
+```
+npm install webtorrent-cli -g
+```
 
 ## Dependencies:
 
 Install Webtorrent Cli for downloading or Streaming files.
 
-> npm install webtorrent-cli -g
-
 or Install [aria2](https://github.com/aria2/aria2)
 
-it supports:
+#### It supports:
 Here is a list of features:
 - Command-line interface
 - Download files through HTTP(S)/FTP/SFTP/BitTorrent
@@ -61,3 +67,33 @@ more features of [aria2](https://github.com/aria2/aria2)
 - [ ] create Own Scrapper that scrapes
 - [ ] Host api on vercel
 - [ ] Avoid dependency
+
+### Feel free to Star and PR
+Set Upstream to this Url and commit cahnges as below 
+
+*Now you can make changes to the code. The following code creates a new branch, makes an arbitrary change, and pushes it to new_branch:*
+
+1. Once you add all the files in your branch, it time to push your code for generating a pull request.
+    ```
+    git status
+    ```
+    > This checks whether you are on your created branch or the master branch. If it shows master, type:
+      ```
+      git checkout <Your Branch Name>
+      ```
+      
+    Now its time for **the Git operations.** Always **git pull** to ensure that your files are updated.
+      ```
+      git pull origin master
+      ```
+      
+      ```
+      git add .
+      ```
+      
+      ```
+      git commit -m "Your Message"
+      ```
+      
+      ```
+      git push -u origin <Your Branch Name>
